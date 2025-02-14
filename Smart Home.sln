@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{1BA85E9E-88D9-42B2-93A3-FA5C0685430E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesLogic", "BussinesLogic\BussinesLogic.csproj", "{010F220F-50F5-4908-82A4-1609F9BAA522}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A8BDD587-0FAA-408B-95FB-837FAF826738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8BDD587-0FAA-408B-95FB-837FAF826738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8BDD587-0FAA-408B-95FB-837FAF826738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010F220F-50F5-4908-82A4-1609F9BAA522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010F220F-50F5-4908-82A4-1609F9BAA522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010F220F-50F5-4908-82A4-1609F9BAA522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010F220F-50F5-4908-82A4-1609F9BAA522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{34D7A4EF-651F-4EE0-979D-5D237DF4003E} = {C2743F77-A459-4B11-98AF-A7F5FC0D5E19}
 		{A8BDD587-0FAA-408B-95FB-837FAF826738} = {2784B180-5B46-443E-9E62-6C51ED481016}
+		{010F220F-50F5-4908-82A4-1609F9BAA522} = {1BA85E9E-88D9-42B2-93A3-FA5C0685430E}
 	EndGlobalSection
 EndGlobal

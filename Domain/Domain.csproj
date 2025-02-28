@@ -43,10 +43,17 @@
   <ItemGroup>
     <Compile Include="Abstraction\DeviceDecorator.cs" />
     <Compile Include="Abstraction\IDevice.cs" />
+    <Compile Include="Abstraction\IObserver.cs" />
+    <Compile Include="Abstraction\ISubject.cs" />
     <Compile Include="Models\ColorDeviceDecorator.cs" />
+    <Compile Include="Models\DoorSensor.cs" />
     <Compile Include="Models\Light.cs" />
+    <Compile Include="Models\MotionSensor.cs" />
     <Compile Include="Models\TimeDeviceDecorator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subsystems\ClimateControl.cs" />
+    <Compile Include="Subsystems\LightingSystem.cs" />
+    <Compile Include="Subsystems\SecuritySystem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
